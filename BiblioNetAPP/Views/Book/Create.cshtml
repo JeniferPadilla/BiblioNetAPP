@@ -8,9 +8,32 @@
 
 <form asp-action="Create">
     <div class="mb-3">
-        <label asp-for="BookName" class="form-label"></label>
-        <input type="text" asp-for="BookName" class="form-control" />
-        <span asp-validation-for="BookName" class="text-danger"> </span>
+        <label asp-for="Title" class="form-label"></label>
+        <input type="text" asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"> </span>
     </div>
+     <div class="mb-3">
+        <label asp-for="Description" class="form-label"></label>
+        <input type="text" asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"> </span>
+    </div>
+
+     <div class="mb-3">
+        <label asp-for="Pages" class="form-label"></label>
+        <input type="number" asp-for="Pages" class="form-control" />
+        <span asp-validation-for="Pages" class="text-danger"> </span>
+    </div>
+     <div class="mb-3">
+        <label asp-for="PublicationDate" class="form-label"></label>
+        <input type="date" asp-for="PublicationDate" class="form-control" />
+        <span asp-validation-for="PublicationDate" class="text-danger"> </span>
+    </div>
+ 
     <button type="submit" class="btn btn-primary">Create</button>
+
 </form>
+
+@section Scripts{      @***Es para que ejecute todos los scripts que tiene _layaout***@
+    <partial name="_ValidationScriptsPartial"/>
+
+}

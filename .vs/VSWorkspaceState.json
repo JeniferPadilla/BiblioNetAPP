@@ -4,8 +4,7 @@
     "\\BiblioNetAPP",
     "\\BiblioNetAPP\\Controllers",
     "\\BiblioNetAPP\\Models",
-    "\\BiblioNetAPP\\Views",
-    "\\BiblioNetAPP\\Views\\Books"
+    "\\BiblioNetAPP\\Views"
   ],
   "SelectedNode": "\\BiblioNetAPP.sln",
   "PreviewInSolutionExplorer": false

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jkpadillac\\Desktop\\BiblioNetAPP\\BiblioNetAPP\\BiblioNetAPP.csproj": {}
+    "C:\\Users\\jkpadillac\\Desktop\\Proyectos\\.NET\\BiblioNetAPP\\BiblioNetAPP\\BiblioNetAPP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jkpadillac\\Desktop\\BiblioNetAPP\\BiblioNetAPP\\BiblioNetAPP.csproj": {
+    "C:\\Users\\jkpadillac\\Desktop\\Proyectos\\.NET\\BiblioNetAPP\\BiblioNetAPP\\BiblioNetAPP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jkpadillac\\Desktop\\BiblioNetAPP\\BiblioNetAPP\\BiblioNetAPP.csproj",
+        "projectUniqueName": "C:\\Users\\jkpadillac\\Desktop\\Proyectos\\.NET\\BiblioNetAPP\\BiblioNetAPP\\BiblioNetAPP.csproj",
         "projectName": "BiblioNetAPP",
-        "projectPath": "C:\\Users\\jkpadillac\\Desktop\\BiblioNetAPP\\BiblioNetAPP\\BiblioNetAPP.csproj",
+        "projectPath": "C:\\Users\\jkpadillac\\Desktop\\Proyectos\\.NET\\BiblioNetAPP\\BiblioNetAPP\\BiblioNetAPP.csproj",
         "packagesPath": "C:\\Users\\jkpadillac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jkpadillac\\Desktop\\BiblioNetAPP\\BiblioNetAPP\\obj\\",
+        "outputPath": "C:\\Users\\jkpadillac\\Desktop\\Proyectos\\.NET\\BiblioNetAPP\\BiblioNetAPP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jkpadillac\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
