@@ -14,5 +14,11 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-image: url(https://th.bing.com/th/id/R.2e06b0adeefd677212f4995dc1f6170e?rik=curJYd%2biWHr%2fXg&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+
+footer{
+    background-color:aliceblue;
 }
